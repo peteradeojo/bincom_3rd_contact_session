@@ -34,12 +34,3 @@ class Fibonacci:
     @property
     def position(self):
         return self.__b
-
-
-fib = Fibonacci()
-next(fib.gen())
-next(fib.gen())
-next(fib.gen())
-next(fib.gen())
-print(fib.index)
-print(fib.position)
